@@ -50,4 +50,13 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Edit" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School Order and Information"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="5dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
