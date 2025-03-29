@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.hackabyte25.app-mergeDebugResources-42:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\vibha\\.gradle\\caches\\8.11.1\\transforms\\c70fd9392d978c22cafbd61820252985\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
