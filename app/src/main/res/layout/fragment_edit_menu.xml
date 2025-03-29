@@ -5,24 +5,31 @@
     android:layout_height="match_parent"
     tools:context=".editMenu">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="School Menu And Information"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="5dp" />
-
     <View
         android:id="@+id/divider"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="?android:attr/listDivider" />
 
-    <Spinner
-        android:id="@+id/spinner2"
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="569dp"
+        android:layout_marginVertical="-40dp"
+        android:layout_marginTop="90dp"></TableLayout>
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="400sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:text="Edit the menu"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
 </FrameLayout>
