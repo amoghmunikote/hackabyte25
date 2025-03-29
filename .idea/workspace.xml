@@ -36,12 +36,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="661dc206-a089-4e7f-ba9d-0ad408c489ec" name="Changes" comment="Added a sqlite database called preservedata.sqlite&#10;On top of that I added the scripts needed for the menu">
-      <change afterPath="$PROJECT_DIR$/app/sql/OrdersDataFetcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sql/OrdersDataInserter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sql/MenuDataInserter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/MenuDataInserter.java" afterDir="false" />
-    </list>
+    <list default="true" id="661dc206-a089-4e7f-ba9d-0ad408c489ec" name="Changes" comment="I added the java scripts that deal with Orders.&#10;I also fixed a small error in teh MenuDataInserter with Data Types." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,12 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1743282508846</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I added the java scripts that deal with Orders.&#10;I also fixed a small error in teh MenuDataInserter with Data Types.">
+      <option name="closed" value="true" />
+      <created>1743283012275</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743283012275</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added a sqlite database called preservedata.sqlite&#10;On top of that I added the scripts needed for the menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a sqlite database called preservedata.sqlite&#10;On top of that I added the scripts needed for the menu" />
+    <MESSAGE value="I added the java scripts that deal with Orders.&#10;I also fixed a small error in teh MenuDataInserter with Data Types." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added the java scripts that deal with Orders.&#10;I also fixed a small error in teh MenuDataInserter with Data Types." />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
