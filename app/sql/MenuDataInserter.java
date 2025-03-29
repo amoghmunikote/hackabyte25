@@ -14,7 +14,7 @@ public class MenuDataInserter {
     }
 
     // Method to insert sample data into the "menu" table
-    public void insertMenuData(foodItem,allergyWarnings,calories,price) {
+    public void insertMenuData(String foodItem,String allergyWarnings,int calories,int price) {
         DBHelper dbHelper = new DBHelper(context);
         SQLiteDatabase db = dbHelper.getWritableDatabase();  // Open the database in write mode
 

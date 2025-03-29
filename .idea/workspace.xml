@@ -36,11 +36,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="661dc206-a089-4e7f-ba9d-0ad408c489ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/sql/DBHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sql/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sql/MenuDataFetcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/sql/MenuDataInserter.java" afterDir="false" />
+    <list default="true" id="661dc206-a089-4e7f-ba9d-0ad408c489ec" name="Changes" comment="Added a sqlite database called preservedata.sqlite&#10;On top of that I added the scripts needed for the menu">
+      <change afterPath="$PROJECT_DIR$/app/sql/OrdersDataFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sql/OrdersDataInserter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sql/MenuDataInserter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/MenuDataInserter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "VibhasBhaskar13"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/amoghmunikote/hackabyte25.git",
+    "accountId": "377ec0f4-6da2-47b8-96e6-5780a58db7ee"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -163,7 +175,20 @@
       <option name="presentableId" value="Default" />
       <updated>1743272688382</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added a sqlite database called preservedata.sqlite&#10;On top of that I added the scripts needed for the menu">
+      <option name="closed" value="true" />
+      <created>1743282508846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743282508846</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added a sqlite database called preservedata.sqlite&#10;On top of that I added the scripts needed for the menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a sqlite database called preservedata.sqlite&#10;On top of that I added the scripts needed for the menu" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
