@@ -4,26 +4,13 @@
     android:id="@+id/mobile_navigation">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.hackabyte25.ui.home.HomeFragment"
-        android:label="Home" />
-
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.hackabyte25.ui.gallery.GalleryFragment"
-        android:label="Gallery" />
-
-    <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.hackabyte25.ui.slideshow.SlideshowFragment"
-        android:label="Login">
-        <action
-            android:id="@+id/action_nav_slideshow_to_nav_edit_menu"
-            app:destination="@id/nav_edit_menu" />
-    </fragment>
+        android:label="Login" />
 
     <fragment
         android:id="@+id/nav_edit_menu"
         android:name="com.example.hackabyte25.ui.editmenu.EditMenuFragment"
-        android:label="Edit Menu" />
+        android:label="EditMenuFragment" />
+
 </navigation>
