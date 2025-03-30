@@ -5,24 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".editMenu">
 
+    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="School Menu And Information"
-        android:textSize="30sp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="5dp" />
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider" />
-
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
