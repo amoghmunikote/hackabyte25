@@ -46,27 +46,6 @@ public class SlideshowFragment extends Fragment {
             transaction.commit();
         });
 
-        Button orderCheckingButton = binding.checkingOrdersButton;
-        orderCheckingButton.setOnClickListener(v -> {
-            OrderCheckingFragment orderCheckingFragment = new OrderCheckingFragment();
-            FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();
-            FragmentTransaction transaction = fragmentManager.beginTransaction();
-
-            // Set transition animation
-            transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-
-            // Replace current fragment and add to back stack
-            transaction.replace(R.id.nav_host_fragment_content_main, orderCheckingFragment);
-            transaction.addToBackStack(null);
-
-            // Hide current fragment's view
-            binding.getRoot().setVisibility(View.GONE);
-
-            transaction.commit();
-        });
-
-
-
         return root;
     }
 
