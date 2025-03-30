@@ -24,7 +24,7 @@
          app:layout_constraintVertical_bias="0.0" />
 
         <Button
-            android:id="@+id/Edit"
+            android:id="@+id/editMenuButton"
             android:layout_width="168dp"
             android:layout_height="68dp"
             android:layout_marginStart="121dp"
@@ -32,22 +32,22 @@
             android:layout_marginEnd="122dp"
             android:layout_marginBottom="50dp"
             android:text="Edit Menu"
-            app:layout_constraintBottom_toTopOf="@+id/change"
+            app:layout_constraintBottom_toTopOf="@+id/checkingOrdersButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/change"
+            android:id="@+id/checkingOrdersButton"
             android:layout_width="168dp"
             android:layout_height="68dp"
             android:layout_marginStart="121dp"
             android:layout_marginTop="50dp"
             android:layout_marginEnd="122dp"
             android:layout_marginBottom="280dp"
-            android:text="Checking Order"
+            android:text="Check Orders"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Edit" />
+            app:layout_constraintTop_toBottomOf="@id/editMenuButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
