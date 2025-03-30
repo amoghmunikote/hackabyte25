@@ -1,37 +1,40 @@
 package com.example.sql;
 
 import android.content.ContentValues;
-import android.database.sqlite.SQLiteDatabase;
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
 
-// This class handles inserting data into the "menu" table.
 public class MenuDataInserter {
 
-    // Context to interact with the database
     private final Context context;
 
-    // Constructor that takes the context
+    // Constructor that takes context as a parameter
     public MenuDataInserter(Context context) {
         this.context = context;
     }
 
-    // Method to insert sample data into the "menu" table
-    public void insertMenuData(String foodItem,String allergyWarnings,int calories,int price) {
+    // Method to insert a new menu item into the menu table
+    public void insertMenuData(String foodItem, String allergyWarnings, int calories, double price) {
         DBHelper dbHelper = new DBHelper(context);
-        SQLiteDatabase db = dbHelper.getWritableDatabase();  // Open the database in write mode
+        SQLiteDatabase db = dbHelper.getWritableDatabase();  // Open database in write mode
 
-        // Create a ContentValues object to hold the values for a new row in the table
+        // Create a ContentValues object to hold the data
         ContentValues values = new ContentValues();
+        values.put("foodItem", foodItem);
+        values.put("allergyWarnings", allergyWarnings);
+        values.put("calories", calories);
+        values.put("price", price);
 
-        // Insert data for the first food item (Pizza)
-        values.put("foodItem", foodItem);  // Insert food item
-        values.put("allergyWarnings", allergyWarnings);  // Insert allergy warnings
-        values.put("calories", calories);  // Insert calories count
-        values.put("price", price);  // Insert price
-        db.insert("menu", null, values);  // Insert values into the "menu" table
+        // Insert the new menu item into the "menu" table
+        long result = db.insert("menu", null, values);
 
-        // Clear the ContentValues object to reuse it for another row
-        values.clear();
+        if (result == -1) {
+            Log.e("DB_ERROR", "Failed to insert data into menu table.");
+        } else {
+            Log.d("DB_SUCCESS", "Menu item inserted successfully: " + foodItem);
+        }
+
         // Close the database after insertion
         db.close();
     }
