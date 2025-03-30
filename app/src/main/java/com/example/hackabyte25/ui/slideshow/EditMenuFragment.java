@@ -1,4 +1,4 @@
-package com.example.hackabyte25.ui.editmenu;
+package com.example.hackabyte25.ui.slideshow;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;

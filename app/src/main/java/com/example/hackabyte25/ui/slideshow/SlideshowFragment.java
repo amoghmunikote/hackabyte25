@@ -14,7 +14,6 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.hackabyte25.R;
 import com.example.hackabyte25.databinding.FragmentSlideshowBinding;
-import com.example.hackabyte25.ui.editmenu.EditMenuFragment;
 
 public class SlideshowFragment extends Fragment {
 
