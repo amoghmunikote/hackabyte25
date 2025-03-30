@@ -6,11 +6,27 @@
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.hackabyte25.ui.slideshow.SlideshowFragment"
-        android:label="Login" />
+        android:label="Login">
+        <action
+            android:id="@+id/action_slideshow_to_edit_menu"
+            app:destination="@id/editMenuFragment"
+            app:popUpTo="@id/nav_slideshow"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_slideshow_to_order_checking"
+            app:destination="@id/orderCheckingFragment"
+            app:popUpTo="@id/nav_slideshow"
+            app:popUpToInclusive="false" />
+    </fragment>
 
     <fragment
-        android:id="@+id/nav_edit_menu"
+        android:id="@+id/editMenuFragment"
         android:name="com.example.hackabyte25.ui.slideshow.EditMenuFragment"
-        android:label="EditMenuFragment" />
+        android:label="Edit Menu" />
+
+    <fragment
+        android:id="@+id/orderCheckingFragment"
+        android:name="com.example.hackabyte25.ui.slideshow.OrderCheckingFragment"
+        android:label="Check Orders" />
 
 </navigation>

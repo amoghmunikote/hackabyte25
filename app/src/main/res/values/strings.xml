@@ -6,7 +6,8 @@
     <string name="nav_header_subtitle">Preorder. Preserve. Enjoy!</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
+    <string name="menu_home">Menu</string>
+    <string name="menu_gallery">Preorder</string>
     <string name="menu_preorder">Preorder</string>
     <string name="menu_admin_login">Login</string>
     <string name="menu_item_menu">Menu</string>

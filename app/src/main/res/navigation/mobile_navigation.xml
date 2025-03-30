@@ -1,25 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@id/nav_home">
 
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.hackabyte25.ui.home.HomeFragment"
-        android:label="@string/menu_item_menu"
-        tools:layout="@layout/fragment_home" />
+        android:label="@string/menu_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.hackabyte25.ui.gallery.GalleryFragment"
-        android:label="@string/menu_preorder"
-        tools:layout="@layout/fragment_gallery" />
+        android:label="@string/menu_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.hackabyte25.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_admin_login"
-        tools:layout="@layout/fragment_slideshow" />
+        android:label="Login">
+        <action
+            android:id="@+id/action_slideshow_to_edit_menu"
+            app:destination="@id/nav_edit_menu"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_slideshow_to_order_checking"
+            app:destination="@id/nav_order_checking"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_edit_menu"
+        android:name="com.example.hackabyte25.ui.slideshow.EditMenuFragment"
+        android:label="Edit Menu" />
+
+    <fragment
+        android:id="@+id/nav_order_checking"
+        android:name="com.example.hackabyte25.ui.slideshow.OrderCheckingFragment"
+        android:label="Check Orders" />
 </navigation>
